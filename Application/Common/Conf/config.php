@@ -18,5 +18,5 @@ return array(
 
 	'SHOW_ERROR_MSG' => ture,
 	'URL_MODEL'		=>	3,
-	// 'SESSION_AUTO_START' => true,
+	'SESSION_AUTO_START' => true,
 );

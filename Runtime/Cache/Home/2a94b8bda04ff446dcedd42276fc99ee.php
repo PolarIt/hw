@@ -5,12 +5,12 @@
   <meta name="renderer" content="webkit">
   <title>HW官网</title>
 <head>
-<script src="/HW/Public/Home/js/jquery.min.js"></script>
-<script src="/HW/Public/Home/js/bootstrap.min.js"></script>
-<link href="/HW/Public/Home/css/bootstrap.min.css" rel="stylesheet">
-<script src="/HW/Public/Home/js/index.js"></script>
-<link href="/HW/Public/Home/css/index.css" rel="stylesheet">
- <link rel="stylesheet" href="/HW/Public/Home/css/product.css" />
+<script src="/hw/Public/Home/js/jquery.min.js"></script>
+<script src="/hw/Public/Home/js/bootstrap.min.js"></script>
+<link href="/hw/Public/Home/css/bootstrap.min.css" rel="stylesheet">
+<script src="/hw/Public/Home/js/index.js"></script>
+<link href="/hw/Public/Home/css/index.css" rel="stylesheet">
+ <link rel="stylesheet" href="/hw/Public/Home/css/product.css" />
 </head>
 <body>
 <nav class="naver-default  navbar-fixed-top" >
@@ -18,7 +18,7 @@
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div  id="bs-example-navbar-collapse-1">
-      <img src="/HW/Public/home/images/logo.png" />
+      <img src="/hw/Public/home/images/logo.png" />
       <ul class="nav navbar-nav navbar-right" style="list-style:none;">
                
         <li><a href="#" class="niceColor" >
@@ -41,7 +41,7 @@
  <section class="section-wrap">
  <!--首页-->     
     <div class="section section-1" >
-           <img class="backgroundImg" src="/HW/Public/Home/images/background1.jpg"/>
+           <img class="backgroundImg" src="/hw/Public/Home/images/background1.jpg"/>
     </div>
 
 <!--社团介绍轮播页面开始-->
@@ -52,7 +52,7 @@
 <div class="carousel-inner" style="height:100%;" >
        <!--第一页-->   
           <div class="item active"  style="height:100%;">
-            <img class="backgroundImg" src="/HW/Public/Home/images/HWIntroduce1.jpg"   alt="1" >
+            <img class="backgroundImg" src="/hw/Public/Home/images/HWIntroduce1.jpg"   alt="1" >
             <div style="position:absolute;height:500px;width:850px;left:250px;top:100px;">
               <h1>关于Hello World</h1>
               <h2 style=" text-indent :2em;text-align:left;line-height:1.5;">
@@ -65,7 +65,7 @@
           </div>
        <!--第二页-->
           <div class="item"   style="height:100%;">
-             <img class="backgroundImg" src="/HW/Public/Home/images/HWIntroduce2.jpg"  alt="2">  
+             <img class="backgroundImg" src="/hw/Public/Home/images/HWIntroduce2.jpg"  alt="2">  
            
            <div id="preSign" class="sectorSign" date="0">主席团</div>
            <div id="admSign" class="sectorSign" date="1">行政部</div>
@@ -83,7 +83,7 @@
           </div>
        <!--第三页-->  
           <div class="item" style="height:100%;">
-             <img class="backgroundImg" src="/HW/Public/Home/images/HWIntroduce1.jpg"  alt="3"> 
+             <img class="backgroundImg" src="/hw/Public/Home/images/HWIntroduce1.jpg"  alt="3"> 
              <div style="position:absolute;height:500px;width:1000px;left:200px;top:50px;">
                <h1>Hello World规章</h1>
                <h3>社团的导师制度：
@@ -128,59 +128,59 @@
   
 <!--产品展示开始-->
 <!-- <div class="section section-3">
-   <img class="backgroundImg" src="/HW/Public/Home/images/HWIntroduce1.jpg"  >
+   <img class="backgroundImg" src="/hw/Public/Home/images/HWIntroduce1.jpg"  >
 <div class="foucebox">
   <div class="bd">
-    <div class="showDiv"> <a href="#"><img src="/HW/Public/Home/images/1.6.jpg"></a>
+    <div class="showDiv"> <a href="#"><img src="/hw/Public/Home/images/1.6.jpg"></a>
       <div class="foucebox_bg"></div>
       <div>
         <h2 style="bottom: 60px;"><a href="#">标题</a></h2>
         <p style="bottom: 10px;">简介</p>
       </div>
     </div>
-    <div class="showDiv"><a href="#"><img src="/HW/Public/Home/images/1.6.jpg"></a>
+    <div class="showDiv"><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"></a>
       <div class="foucebox_bg"></div>
       <div>
         <h2 style="bottom: 60px;"><a href="#">标题</a></h2>
         <p style="bottom: 10px;">简介</p>
       </div>
     </div>
-    <div class="showDiv"><a href="#"><img src="/HW/Public/Home/images/1.6.jpg"></a>
+    <div class="showDiv"><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"></a>
       <div class="foucebox_bg"></div>
       <div>
         <h2 style="bottom: 60px;"><a href="#">标题</a></h2>
         <p style="bottom: 10px;">简介</p>
       </div>
     </div>
-    <div class="showDiv"><a href="#"><img src="/HW/Public/Home/images/1.6.jpg"></a>
+    <div class="showDiv"><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"></a>
       <div class="foucebox_bg"></div>
       <div>
         <h2><a href="#">标题</a></h2>
         <p style="bottom: 10px;">简介</p>
       </div>
     </div>
-    <div class="showDiv"><a href="#"><img src="/HW/Public/Home/images/1.6.jpg"></a>
+    <div class="showDiv"><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"></a>
       <div class="foucebox_bg"></div>
       <div>
         <h2><a href="#">标题</a></h2>
         <p style="bottom: 10px;">简介</p>
       </div>
     </div>
-    <div class="showDiv"><a href="#"><img src="/HW/Public/Home/images/1.6.jpg"></a>
+    <div class="showDiv"><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"></a>
       <div class="foucebox_bg"></div>
       <div>
         <h2><a href="#">标题</a></h2>
         <p style="bottom: 10px;">简介</p>
       </div>
     </div>
-    <div class="showDiv"><a href="#"><img src="/HW/Public/Home/images/1.6.jpg"></a>
+    <div class="showDiv"><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"></a>
       <div class="foucebox_bg"></div>
       <div>
         <h2><a href="#">标题</a></h2>
         <p style="bottom: 10px;">简介</p>
       </div>
     </div>
-    <div class="showDiv"><a href="#"><img src="/HW/Public/Home/images/1.6.jpg"></a>
+    <div class="showDiv"><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"></a>
       <div class="foucebox_bg"></div>
       <div>
         <h2><a href="#">标题</a></h2>
@@ -190,18 +190,18 @@
   </div>
   <div class="hd">
     <ul>
-      <li class="on"><a href="#"><img src="/HW/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/HW/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/HW/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/HW/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/HW/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/HW/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/HW/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/HW/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li class="on"><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
     </ul>
   </div>
 </div>
-<script type="text/javascript" src="/HW/Public/Home/js/jquery.SuperSlide.js"></script> 
+<script type="text/javascript" src="/hw/Public/Home/js/jquery.SuperSlide.js"></script> 
 <script type="text/javascript">
 jQuery(".foucebox").slide({ effect:"fold", autoPlay:true, delayTime:300, startFun:function(i){jQuery(".foucebox .showDiv").eq(i).find("h2").css({display:"none",bottom:0}).animate({opacity:"show",bottom:"60px"},300);jQuery(".foucebox .showDiv").eq(i).find("p").css({display:"none",bottom:0}).animate({opacity:"show",bottom:"10px"},300);}});
 </script>
@@ -210,7 +210,7 @@ jQuery(".foucebox").slide({ effect:"fold", autoPlay:true, delayTime:300, startFu
 
 <!--社团动态开始-->   
  <div class="section section-4">
-         <img class="backgroundImg" src="/HW/Public/Home/images/orgAct.jpg"/>
+         <img class="backgroundImg" src="/hw/Public/Home/images/orgAct.jpg"/>
           
             <div  id="timerLine" style="height:5px;background:#484848;width:100%;position:absolute;top:580px;font-size:35px;text-indent:50px;word-spacing:300px;">
             <span id="year1">2014</span>
@@ -230,7 +230,7 @@ jQuery(".foucebox").slide({ effect:"fold", autoPlay:true, delayTime:300, startFu
 
            
           <!--一个大的DIV随鼠标移动内容变化-->  
-          <div id="timerWindow"><img src="/HW/Public/Home/images/ActPhoto1.jpg"><!-- 后台此处加图 -->
+          <div id="timerWindow"><img src="/hw/Public/Home/images/ActPhoto1.jpg"><!-- 后台此处加图 -->
           2014年7月。社团成立。<!-- 后台此处加文字 -->
           </div>
  </div>       
@@ -238,22 +238,22 @@ jQuery(".foucebox").slide({ effect:"fold", autoPlay:true, delayTime:300, startFu
   
 <!--合作伙伴开始-->    
  <!-- <div class="section section-5">
-   <img class="backgroundImg" src="/HW/Public/Home/images/HWIntroduce1.jpg"  >
-  <script type="text/javascript" src="/HW/Public/Home/js/jQuery-easing.js"></script>
-  <script type="text/javascript" src="/HW/Public/Home/js/jQuery-jcImgScroll.js"></script>
+   <img class="backgroundImg" src="/hw/Public/Home/images/HWIntroduce1.jpg"  >
+  <script type="text/javascript" src="/hw/Public/Home/js/jQuery-easing.js"></script>
+  <script type="text/javascript" src="/hw/Public/Home/js/jQuery-jcImgScroll.js"></script>
 
-<link rel="stylesheet" type="text/css" href="/HW/Public/Home/css/partner.css">
+<link rel="stylesheet" type="text/css" href="/hw/Public/Home/css/partner.css">
   <div id="demo3" class="jcImgScroll" style="position:absolute;top:100px;left:550px;">
   <ul>
-    <li><a href="#" path="/HW/Public/Home/images/1.jpg"></a></li>
-    <li><a href="#" path="/HW/Public/Home/images/1.jpg"></a></li>
-    <li><a href="#" path="/HW/Public/Home/images/1.jpg"></a></li>
-    <li><a href="#" path="/HW/Public/Home/images/1.jpg"></a></li>
-    <li><a href="#" path="/HW/Public/Home/images/1.jpg"></a></li>
-    <li><a href="#" path="/HW/Public/Home/images/1.jpg"></a></li>
-    <li><a href="#" path="/HW/Public/Home/images/1.jpg"></a></li>
-    <li><a href="#" path="/HW/Public/Home/images/1.jpg"></a></li>
-    <li><a href="#" path="/HW/Public/Home/images/1.jpg"></a></li>
+    <li><a href="#" path="/hw/Public/Home/images/1.jpg"></a></li>
+    <li><a href="#" path="/hw/Public/Home/images/1.jpg"></a></li>
+    <li><a href="#" path="/hw/Public/Home/images/1.jpg"></a></li>
+    <li><a href="#" path="/hw/Public/Home/images/1.jpg"></a></li>
+    <li><a href="#" path="/hw/Public/Home/images/1.jpg"></a></li>
+    <li><a href="#" path="/hw/Public/Home/images/1.jpg"></a></li>
+    <li><a href="#" path="/hw/Public/Home/images/1.jpg"></a></li>
+    <li><a href="#" path="/hw/Public/Home/images/1.jpg"></a></li>
+    <li><a href="#" path="/hw/Public/Home/images/1.jpg"></a></li>
 
   </ul>
   </div>
@@ -263,7 +263,7 @@ jQuery(".foucebox").slide({ effect:"fold", autoPlay:true, delayTime:300, startFu
 
 <!--加入我们开始-->   
 <div class="section section-6">
-<img class="backgroundImg" src="/HW/Public/Home/images/joinUs.jpg" />
+<img class="backgroundImg" src="/hw/Public/Home/images/joinUs.jpg" />
   <div class="title">
    <div id="formContainer">
      <form action="<?php echo U('home/index/apply');?>" method="post">
