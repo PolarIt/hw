@@ -1,0 +1,91 @@
+<!--加入我们开始-->  
+<div class="section section-6" >
+<img class="backgroundImg" src="__PUBLIC__/Home/images/joinUs.jpg" />
+  <div class="title">
+   <div id="formContainer">
+     <form action="{:U('home/index/apply')}" method="post">
+    <div id="formLeft">
+     
+     <div class="form-group">
+      <label for="personName">姓名</label>&nbsp;&nbsp;&nbsp;
+       <input type="text" id="personName" placeholder="请输入姓名" name="name">
+     </div>
+     
+     <div class="form-group">
+      <label for="personStudy">院系</label>&nbsp;&nbsp;&nbsp;
+      <input type="text"  id="personStudy" placeholder="请输入学院" name="major">
+     </div>
+     
+     <div class="form-group">
+      <label for="phoneName">手机</label>&nbsp;&nbsp;&nbsp;
+      <input type="tel" id="phoneName" placeholder="请输入手机号" name="mobile">
+     </div>
+    </div>
+   
+    <div id="formRight">
+    
+     
+      <div class="radio"><span>性别</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label>
+      <input type="radio" name="gender" id="optionsRadios1" value="男" checked><span>男</span>
+      </label>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <label>
+      <input type="radio" name="gender" id="optionsRadios2" value="女"><span>女</span>
+      </label>
+      </div>
+     
+      <div class="form-group">
+      <label for="studyName">学号</label> &nbsp;&nbsp;&nbsp;
+      <input type="tel"  id="studyName" placeholder="请输入学号" name="number">
+      </div>
+   
+   
+      <div class="form-group">
+      <label for="emailName">邮箱</label> &nbsp;&nbsp;&nbsp;
+      <input type="email"  id="emailName" placeholder="请输入邮箱" name="email">
+      </div>
+     
+    </div>
+  
+   <div id="formBottom">
+   
+    <span>意向部门:</span>&nbsp;&nbsp;&nbsp;&nbsp;
+    <select name="department"style="border-radius:5px;color:#000;" >
+      <option><span>办公室</span></option>
+      <option><span>外联部</span></option>
+      <option><span>美工组</span></option>
+      <option><span>运营部</span></option>
+      <option><span>前台组</span></option>
+      <option><span>后台组</span></option>
+      <option><span>安卓组</span></option>
+      <option><span>IOS组</span></option>
+    </select> <br/><br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <textarea  rows="10" placeholder="简单介绍一下自己为什么想加入这个部门" style="width:570px;height:150px;border-radius:10px;color:#000;" name="info"></textarea>
+ 
+   </div>
+    <button id="submitBtn" type="submit" class="btn btn-primary" >提交</button>
+   </form>
+    </div>
+    <div id="QQ">       
+       <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=5662c107c581fb74c32e20819bb378674cb0e87210e868c4c0456c42fdd49556">社团QQ交流群: 469301908
+       </a>
+    </div> 
+    <div id="work">社团工作室：一教227</div>
+
+   <div id="forum"><a href="#">内部论坛</a></div> 
+   <div id="census"><a href="{:U('admin/index/index')}">站长统计</a></div>
+   </div>
+ </div>
+<!--加入我们结束-->
+</section>
+  <ul class="section-btn" style="list-style:none;">
+    <li class="on"></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <div class="arrow">&laquo;</div>

@@ -3,13 +3,8 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-      //redirect( U ( 'home/index/intro' ) );
       $this->display();
     }
-
-    // public function intro(){
-    //   $this->display();
-    // }
 
     public function apply(){
     	if(!IS_POST) $this->redirect('index');

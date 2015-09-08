@@ -1,21 +1,22 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
-  <meta name="renderer" content="webkit">
-  <title>HW官网</title>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="renderer" content="webkit">
+<title>HW官网</title>
 <script src="/hw/Public/Home/js/jquery.min.js"></script>
 <script src="/hw/Public/Home/js/bootstrap.min.js"></script>
 <link href="/hw/Public/Home/css/bootstrap.min.css" rel="stylesheet">
 <script src="/hw/Public/Home/js/index.js"></script>
 <link href="/hw/Public/Home/css/index.css" rel="stylesheet">
- <link rel="stylesheet" href="/hw/Public/Home/css/product.css" />
+<link rel="stylesheet" href="/hw/Public/Home/css/product.css" />
 </head>
-<body>
-<nav class="naver-default  navbar-fixed-top" >
 
-    
+<body>
+
+<nav class="naver-default  navbar-fixed-top" >    
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div  id="bs-example-navbar-collapse-1">
       <img src="/hw/Public/home/images/logo.png" />
@@ -26,19 +27,19 @@
                 
         <li><a href="#">社团介绍</a></li> 
                 
-        <!-- <li><a href="#" >产品展示</a></li> -->
+        <li><a href="#" >产品展示</a></li>
                 
         <li><a href="#" >社团动态</a></li>
               
-        <!-- <li><a href="#" >合作伙伴</a></li> -->
+        <li><a href="#" >合作伙伴</a></li>
                 
         <li><a href="#" >加入我们</a></li>
          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </ul>
     </div><!-- /.navbar-collapse -->
 </nav>
-
- <section class="section-wrap">
+ 
+<section class="section-wrap">
  <!--首页-->     
     <div class="section section-1" >
            <img class="backgroundImg" src="/hw/Public/Home/images/background1.jpg"/>
@@ -63,7 +64,7 @@
               制度。各部门任务分工明确，围绕着技术开发和校友展开工作。</h2>
             </div>
           </div>
-       <!--第二页-->
+<!--第二页-->
           <div class="item"   style="height:100%;">
              <img class="backgroundImg" src="/hw/Public/Home/images/HWIntroduce2.jpg"  alt="2">  
            
@@ -81,7 +82,7 @@
          </div> 
             <div id="signShow"><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HW主席团是HW的日常工作机构，实行主席团负责制，经每年选举产生，向HW社团负责。HW主席团执行HW社团的各项职权，落实各部门提出的任务，挑动各部门的积极性，调节整个社团氛围，并做好HW社团各大活动的筹备。主席团构成：主席团由HW社长，副社长，部长，副部长，社长助理，技术部组长组成。</div>
           </div>
-       <!--第三页-->  
+          <!--第三页-->  
           <div class="item" style="height:100%;">
              <img class="backgroundImg" src="/hw/Public/Home/images/HWIntroduce1.jpg"  alt="3"> 
              <div style="position:absolute;height:500px;width:1000px;left:200px;top:50px;">
@@ -125,9 +126,9 @@
  </div>
 </div>
 <!--社团介绍轮播页面结束--> 
-  
+       
 <!--产品展示开始-->
-<!-- <div class="section section-3">
+<div class="section section-3">
    <img class="backgroundImg" src="/hw/Public/Home/images/HWIntroduce1.jpg"  >
 <div class="foucebox">
   <div class="bd">
@@ -190,14 +191,14 @@
   </div>
   <div class="hd">
     <ul>
-      <li class="on"><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
-      <li><a href="#"><img src="/hw/Public/Home/images/6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li class="on"><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
+      <li><a href="#"><img src="/hw/Public/Home/images/1.6.jpg"><span class="txt">标题</span><span class="txt_bg"></span><span class="mask"></span></a></li>
     </ul>
   </div>
 </div>
@@ -205,9 +206,9 @@
 <script type="text/javascript">
 jQuery(".foucebox").slide({ effect:"fold", autoPlay:true, delayTime:300, startFun:function(i){jQuery(".foucebox .showDiv").eq(i).find("h2").css({display:"none",bottom:0}).animate({opacity:"show",bottom:"60px"},300);jQuery(".foucebox .showDiv").eq(i).find("p").css({display:"none",bottom:0}).animate({opacity:"show",bottom:"10px"},300);}});
 </script>
-</div>             -->
+</div>            
 <!--产品展示结束--> 
-
+ 
 <!--社团动态开始-->   
  <div class="section section-4">
          <img class="backgroundImg" src="/hw/Public/Home/images/orgAct.jpg"/>
@@ -234,10 +235,10 @@ jQuery(".foucebox").slide({ effect:"fold", autoPlay:true, delayTime:300, startFu
           2014年7月。社团成立。<!-- 后台此处加文字 -->
           </div>
  </div>       
-<!--社团动态结束-->   
+<!--社团动态结束-->  
   
 <!--合作伙伴开始-->    
- <!-- <div class="section section-5">
+ <div class="section section-5">
    <img class="backgroundImg" src="/hw/Public/Home/images/HWIntroduce1.jpg"  >
   <script type="text/javascript" src="/hw/Public/Home/js/jQuery-easing.js"></script>
   <script type="text/javascript" src="/hw/Public/Home/js/jQuery-jcImgScroll.js"></script>
@@ -257,12 +258,11 @@ jQuery(".foucebox").slide({ effect:"fold", autoPlay:true, delayTime:300, startFu
 
   </ul>
   </div>
- </div> -->
-<!--合作伙伴结束-->
+ </div>
+<!--合作伙伴结束-->  
 
-
-<!--加入我们开始-->   
-<div class="section section-6">
+<!--加入我们开始-->  
+<div class="section section-6" >
 <img class="backgroundImg" src="/hw/Public/Home/images/joinUs.jpg" />
   <div class="title">
    <div id="formContainer">
@@ -338,7 +338,7 @@ jQuery(".foucebox").slide({ effect:"fold", autoPlay:true, delayTime:300, startFu
     <div id="work">社团工作室：一教227</div>
 
    <div id="forum"><a href="#">内部论坛</a></div> 
-   <div id="census"><a href="#">站长统计</a></div>
+   <div id="census"><a href="<?php echo U('admin/index/index');?>">站长统计</a></div>
    </div>
  </div>
 <!--加入我们结束-->
@@ -349,12 +349,9 @@ jQuery(".foucebox").slide({ effect:"fold", autoPlay:true, delayTime:300, startFu
     <li></li>
     <li></li>
     <li></li>
-      <li></li>
+    <li></li>
   </ul>
   <div class="arrow">&laquo;</div>
-
-
-
 
 </body>
 </html>
