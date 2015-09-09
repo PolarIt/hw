@@ -28,6 +28,6 @@ class IndexController extends Controller {
           $this->error('错误请重试');
       }else{
         $this->error($Apply->getError());
-       }
-	   }
+      }
+	  }
 }

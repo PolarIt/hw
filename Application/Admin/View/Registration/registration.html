@@ -22,14 +22,31 @@
 			<td>{$vo.mobile}</td>
 			<td>{$vo.email}</td>
 			<td>{$vo.department}</td>
-			<td><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">隐藏/显示</a></td>
+			<td><a data-toggle="collapse" data-parent="#accordion" href="#{$vo.id}">隐藏/显示</a></td>
 		</tr>
 		
-		<tr id="collapseTwo" class="panel-collapse collapse">
+		<tr id="{$vo.id}" class="panel-collapse collapse">
 			<td colspan="8" class="panel-body">{$vo.info}</td>
 		</tr>
 		</foreach>
 	</table>
+	
+	<gt name="num" value="1">
+		<eq name="page" value="1">
+			第{$page}页
+			<a href="{:U('admin/registration/registration?page='.($page+1))}">下一页</a>
+		<else />
+			<eq name="num" value="$page">
+			<a href="{:U('admin/registration/registration?page='.($page-1))}">上一页</a>
+			第{$page}页
+			<else />
+			<a href="{:U('admin/registration/registration?page='.($page-1))}">上一页</a>
+			第{$page}页
+			<a href="{:U('admin/registration/registration?page='.($page+1))}">下一页</a>
+			</eq>
+		</eq>
+	</gt>
+	
 </div>
 
 </block>

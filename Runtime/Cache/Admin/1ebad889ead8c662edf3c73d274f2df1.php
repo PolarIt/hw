@@ -52,44 +52,28 @@
 
 
 <div class="col-md-8">
-	<table class="table table-bordered table-hover">
+	<table class="table table-hover">
 		<tr>
-		  	<th>姓名</th>
-		  	<th>性别</th>
-		  	<th>院系</th>
-		  	<th>学号</th>
-		  	<th>手机号</th>
-		  	<th>邮箱</th>
-		  	<th>意向部门</th>
-		  	<th>介绍</th>
+		  	<th>#</th>
+		  	<th>标题</th>
+		  	<th>作者</th>
+		  	<th>发布时间</th>
+		  	<th>操作</th>
 		</tr>
-		<?php if(is_array($apply)): foreach($apply as $key=>$vo): ?><tr>
-			<td><?php echo ($vo["name"]); ?></td>
-			<td><?php echo ($vo["gender"]); ?></td>
-			<td><?php echo ($vo["major"]); ?></td>
-			<td><?php echo ($vo["number"]); ?></td>
-			<td><?php echo ($vo["mobile"]); ?></td>
-			<td><?php echo ($vo["email"]); ?></td>
-			<td><?php echo ($vo["department"]); ?></td>
-			<td><a data-toggle="collapse" data-parent="#accordion" href="#<?php echo ($vo["id"]); ?>">隐藏/显示</a></td>
+		<tr>
+			<td>1</td>
+			<td>标题1</td>
+			<td></td>
+			<td></td>
+			<td>
+				<a href="" style="text-decoration:none"><span style="text-align:center;color:red">编辑</span></a>
+				<span style="text-align:center;color:red">删除</span>
+			</td>
 		</tr>
-		
-		<tr id="<?php echo ($vo["id"]); ?>" class="panel-collapse collapse">
-			<td colspan="8" class="panel-body"><?php echo ($vo["info"]); ?></td>
-		</tr><?php endforeach; endif; ?>
 	</table>
-	
-	<?php if(($num) > "1"): if(($page) == "1"): ?>第<?php echo ($page); ?>页
-			<a href="<?php echo U('admin/registration/registration?page='.($page+1));?>">下一页</a>
-		<?php else: ?>
-			<?php if(($num) == $page): ?><a href="<?php echo U('admin/registration/registration?page='.($page-1));?>">上一页</a>
-			第<?php echo ($page); ?>页
-			<?php else: ?>
-			<a href="<?php echo U('admin/registration/registration?page='.($page-1));?>">上一页</a>
-			第<?php echo ($page); ?>页
-			<a href="<?php echo U('admin/registration/registration?page='.($page+1));?>">下一页</a><?php endif; endif; endif; ?>
-	
+	<a class="btn btn-success btn-lg btn-block" href="<?php echo U('publish');?>" role="button">添加</a>
 </div>
+	
 
 
 </div>
