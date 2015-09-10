@@ -24,7 +24,7 @@ define('APP_PATH','./Application/');
 define('BUILD_DIR_SECURE', false);
 
 // 定义运行时目录
-define('RUNTIME_PATH','./Runtime/');
+//define('RUNTIME_PATH','./Runtime/');
 
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';

@@ -17,6 +17,8 @@ return array(
 	'WEB_SITE_TITLE' => 'Hello World',
 
 	'SHOW_ERROR_MSG' => ture,
-	'URL_MODEL'		=>	3,
+	'URL_MODEL'		=>	1,
 	'SESSION_AUTO_START' => true,
+
+	'SHOW_PAGE_TRACE' => true,
 );
